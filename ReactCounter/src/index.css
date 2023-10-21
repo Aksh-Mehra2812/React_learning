@@ -7,8 +7,10 @@ h1 {
 }
 .main-container{
   position:absolute;
-  left:39%;
-  top:37%;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }
 .container {
   display: flex;
@@ -63,6 +65,7 @@ button {
 
 .btn-container{
   padding: 1rem;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
 }
